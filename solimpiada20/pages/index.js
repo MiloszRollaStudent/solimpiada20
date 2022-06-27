@@ -17,29 +17,38 @@ export default function Home() {
         </h1>
         <p className={styles.description}>
          Przygotuj się na olimpiade o jakiej nawet nie śniłeś
-        </p>
+          </p>
+       <a href='https://forms.gle/fEqijVFWQLqLoj11A'><button className="btn fifth" >Kliknij mnie aby przejść do ankiety!</button> </a>
+          
         <p className="subHeader">
           Solenizanci
+          </p>
+            <p className="subHeader">
+          &darr;
         </p>
 
         <div className={styles.grid}>
+            <Link href="/solga" >
+              <div className={styles.card}>
             <h2>Patryk Solga &rarr;</h2>
-          <Link href="/solga" >
             <p>Przyszły psycholog, wspaniały człowiek - lubi piwo</p>
+              </div>
           </Link>
-
-            <h2>Wojciech Maciejewski</h2>
           <Link href="/wojtek">
-            <p>Brat Pawła i Hanny, lubi żartować, jego fotel ma dziwny zapach </p>
-          </Link>
+            <div className={styles.card}>
+          <h2>Wojtek Maciejewski&rarr;</h2>
+          <p>Brat Pawła i Hanny, lubi żartować, jego fotel ma dziwny zapach </p>
+            </div>
+              </Link>
+              
         </div>
       </main>
-       <button className="btn fifth" ><a href='https://forms.gle/fEqijVFWQLqLoj11A'>Kliknij mnie aby przejść do ankiety!</a></button>
-      <footer className={styles.footer}>
-        <p>
-        
-          Solimpiada 2022
-        </p>
+        <footer className={styles.footer}>
+          <div style={{textAlign: 'center'}}>
+        <p>Solimpiada 2022</p>
+            <p>Jak przez to ze zrobiłem tą strone ujebie jutro egzamin z analizy to dajcie na poprawke :(</p>
+            <p style={{ fontWeight: '700',fontStyle:'italic', fontSize:'1em'}}>51 1140 2004 0000 3402 7546 2080</p>
+          </div>
       </footer>
     </div>
           </div>
