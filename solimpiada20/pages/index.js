@@ -16,10 +16,20 @@ export default function Home() {
          Solimpiada 2022
         </h1>
         <p className={styles.description}>
-         Przygotuj się na olimpiade o jakiej nawet nie śniłeś
+            Przygotuj się na olimpiade o jakiej nawet nie śniłeś!
           </p>
+           <h2 className={styles.title}>
+            Kiedy?
+          </h2>
+           <p className={styles.description}>
+Nie wiem wypełnij ankiete to się dowiemy          </p>
        <a href='https://forms.gle/fEqijVFWQLqLoj11A'><button className="btn fifth" >Kliknij mnie aby przejść do ankiety!</button> </a>
-          
+           <h2 className={styles.title}>
+            Gdzie?
+          </h2>
+            <p className={styles.description}>
+         Na działce a gdzie ?
+          </p>
         <p className="subHeader">
           Solenizanci
           </p>
