@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className='bgGradient'>
@@ -23,18 +23,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/solga" className={styles.card}>
             <h2>Patryk Solga &rarr;</h2>
+          <Link href="/solga" >
             <p>Przyszły psycholog, wspaniały człowiek - lubi piwo</p>
-          </a>
+          </Link>
 
-          <a href="/wojtek" className={styles.card}>
             <h2>Wojciech Maciejewski</h2>
+          <Link href="/wojtek">
             <p>Brat Pawła i Hanny, lubi żartować, jego fotel ma dziwny zapach </p>
-          </a>
+          </Link>
         </div>
       </main>
-       <button class="btn fifth" ><a href='https://forms.gle/fEqijVFWQLqLoj11A'>Kliknij mnie aby przejść do ankiety!</a></button>
+       <button className="btn fifth" ><a href='https://forms.gle/fEqijVFWQLqLoj11A'>Kliknij mnie aby przejść do ankiety!</a></button>
       <footer className={styles.footer}>
         <p>
         
