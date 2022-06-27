@@ -1,1 +1,0 @@
-# solimpiada20

@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  color: white
 }
 
 .main {
@@ -29,7 +30,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #a4f6a7;
   text-decoration: none;
 }
 
@@ -49,9 +50,13 @@
 .description {
   text-align: center;
 }
+.headerDescription{
+  text-transform: uppercase;
+  font-size: 4rem;
+
+}
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -88,8 +93,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #a0e690;
+  border-color: #a0e690;
 }
 
 .card h2 {
