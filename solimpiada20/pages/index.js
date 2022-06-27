@@ -40,16 +40,15 @@ export default function Home() {
           <p>Brat Pawła i Hanny, lubi żartować, jego fotel ma dziwny zapach </p>
             </div>
               </Link>
-              
         </div>
-      </main>
-        <footer className={styles.footer}>
+        <div className={styles.footer}>
           <div style={{textAlign: 'center'}}>
         <p>Solimpiada 2022</p>
             <p>Jak przez to ze zrobiłem tą strone ujebie jutro egzamin z analizy to dajcie na poprawke :(</p>
             <p style={{ fontWeight: '700',fontStyle:'italic', fontSize:'1em'}}>51 1140 2004 0000 3402 7546 2080</p>
           </div>
-      </footer>
+      </div>
+      </main>
     </div>
           </div>
   )
